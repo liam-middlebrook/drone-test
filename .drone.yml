@@ -1,0 +1,5 @@
+pipeline:
+  build:
+    image: python:latest
+    commands:
+      - python test.py
